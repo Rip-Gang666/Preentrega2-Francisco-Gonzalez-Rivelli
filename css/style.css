@@ -1,0 +1,375 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+#encabezado{
+    background-image:url(/img/Food\ Stylist\ Claudia\ Ficca\,\ Drink\ Stylist\,\ food\ styling\ nyc\,\ food\ stylist\ claudia\ ficca\ LA\,\ Drink\ stylist\ claudia\ ficca\,\ commercial\ food\ stylist\,\ burger\ food\ stylist\,\ ice\ cream\ food\ stylist\ \ -\ Food\ &\ Drinks\ Stylist\ Claudia\ Ficca.jpeg);
+    height: 700px;
+    background-position:center;
+    background-repeat: no-repeat; background-size:cover;
+    background-attachment: fixed;
+
+ 
+
+}
+
+#encabezado .menu ul {
+    list-style: none;
+    float: right;
+    margin-top: 25px;
+
+
+}
+#encabezado .menu ul li {
+    display: inline;
+    padding: 20px;
+    
+}
+
+
+
+#encabezado .menu ul li a{
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(67, 53, 53);
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+    text-shadow: 5px 5px 5px #999;
+}
+
+#encabezado .menu ul li a:hover{
+    border-radius: 100%;
+    background: black ;
+    color:white;
+    transition: 0.6s all line;
+    }
+
+    
+
+#principal{
+    display: grid;
+    grid-template-areas: "head head"
+                         "menu main" 
+                        "foot foot";
+                         
+}
+.a { grid-area: head; background: black; color: white; text-align: center; padding-bottom: 80px; }
+.b { grid-area: menu; background:  black; align-items:; }
+.c { grid-area: main; background:  black; padding-top: 150px; }
+.d { grid-area: foot; background: black; color: azure ; padding: 80px; font-size: 25px; }
+
+
+
+
+#newsletter{
+    background-color: black;
+    height: 500px;
+
+}
+
+.news{
+    color:bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    padding-bottom: 15px;
+    padding-top: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+.news2{
+    color:bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 25px;
+
+    
+}
+#newsletter .suscribe{
+    background-color: bisque;
+  border-radius: 10%;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px 32px;
+  text-align: center;
+    margin-left: 45%;
+
+  font-size: 16px;
+
+  cursor: pointer;
+  
+}
+#newsletter .suscribe:hover{
+    box-shadow: 0 12px 16px 0 rgba(255, 0, 0, 0.907),0 17px 50px 0 rgb(255, 0, 0);
+
+}
+
+
+#final{
+    background-image: url(/img/Food\ Stylist\ Claudia\ Ficca\,\ Drink\ Stylist\,\ food\ styling\ nyc\,\ food\ stylist\ claudia\ ficca\ LA\,\ Drink\ stylist\ claudia\ ficca\,\ commercial\ food\ stylist\,\ burger\ food\ stylist\,\ ice\ cream\ food\ stylist\ \ -\ Food\ &\ Drinks\ Stylist\ Claudia\ Ficca.jpeg);
+    height: 300px;
+    background-position:center;
+    background-repeat: no-repeat; background-size:cover;
+    background-attachment: fixed;
+
+}
+#final{
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 25px;
+    font-weight:bold;
+    text-align: center;
+    text-transform: uppercase;
+
+    padding-top: 45px;
+
+}
+.redes{
+    padding-top: 50px;
+
+}
+
+.social-icons li{
+  display:inline-block;
+  padding: 15px;
+}
+.social-icons a{
+    background-color:#929297;
+    color:#000000;
+    display:inline-block;
+    line-height:64px;
+    width: 64px;
+    height:64px;
+    text-align:center;
+    border-radius:100%;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear
+} 
+
+.social-icons a.facebook:hover {
+      background-color:#3b5998
+    }
+.social-icons a.twitter:hover{
+      background-color:#00aced
+    }
+.social-icons a.linkedin:hover{
+      background-color:#007bb6
+    }
+.social-icons a.dribbble:hover{
+      background-color:#ea4c89
+    }
+
+
+
+
+
+    /* CONTACT.HTML*/
+
+#form{
+    background-color: hsl(0, 0%, 0%); 
+    display:grid;
+    padding-left: 300px;
+    
+    
+    
+}
+
+
+
+
+.container h3{
+    color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 5px;
+
+}
+.container {
+    height: 320px;
+    width: 440px;
+    border-radius: 5px;
+    background-color: #ed5d5d;
+    text-align:left;
+    line-height: 25px;
+    margin-top: 45px;
+    
+ 
+
+
+}
+#message{
+    height: 100px;
+}
+
+
+
+.boton{
+    background-color: #bb9090;
+    color: rgb(6, 5, 5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+    text-align: center;
+    margin-left: 15px;
+    }
+      
+.boton:hover {
+    background-color: #54d05c;}
+#message{
+    width: 90%;
+    padding: 12px;
+    border: 1px solid rgb(10, 9, 9);
+    border-radius: 4px;
+    resize: vertical;
+    margin-left: 5px;
+}
+
+
+
+
+
+#scroll a {
+    padding-top: 60px;
+  }
+#scroll a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+  }
+.skroll a {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font : normal 400 40px/1 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+  }
+.skroll a:hover {
+    opacity: .5;
+  }
+
+
+
+.map h3{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*GALLERY.HTML*/
+
+#topings h2{
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    padding-left: 70px;
+    background-color: #ed5d5d;
+}
+
+#topings .column{
+    height: 600px;
+    display:flex;
+    overflow: scroll;
+    background-image: url(/img/Food\ Stylist\ Claudia\ Ficca\,\ Drink\ Stylist\,\ food\ styling\ nyc\,\ food\ stylist\ claudia\ ficca\ LA\,\ Drink\ stylist\ claudia\ ficca\,\ commercial\ food\ stylist\,\ burger\ food\ stylist\,\ ice\ cream\ food\ stylist\ \ -\ Food\ &\ Drinks\ Stylist\ Claudia\ Ficca.jpeg);
+    
+    
+}
+#topings .column img{
+    transform: scale(var(--escala, 1));
+    transition: transform 0.25s; 
+    filter:blur(2px);
+    transition: filter 0.3s ease-in;
+    padding: 15px;
+}
+#topings .column img:hover{
+    --escala: 1.2;
+    cursor:help;
+  
+  filter: blur(0px);
+}
+
+
+#works{
+    display:grid;
+    padding: 150px ;
+    background-image: url(/img/hotdogpattern_jpg\ by\ Tim\ Lampe.jpeg);
+    background-repeat: no-repeat; background-size:cover;
+    background-attachment: fixed;
+    
+}
+.hola{
+    color: white;
+    font-size: 71px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 25px;
+    -webkit-text-stroke: #000000 4px;
+}
+.breve{ 
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 45px;
+    -webkit-text-stroke: #000000 2px;
+}
+#works .works {
+    padding: 15px;
+}
+#works .works img{
+    width: 550px;
+    border: 10px solid rgb(18, 17, 17);
+    border-radius: 4px;
+    padding: 35px;
+    cursor: pointer;
+    
+   
+    
+}
+#works .works img:hover{
+    box-shadow: 10px 10px 10px 10px rgba(11, 11, 10, 0.5);
+}
+
+
+#about{
+    background-color: #ed5d5d;
+    display: grid;
+
+    
+
+   
+
+    
+}
+#about .retrato img{
+    height: 600px;
+    border-radius: 80%;
+}
+.parrafo{
+    float: right;
+
+   padding: 10px;
+   color: #fff;
+}
+
+
