@@ -14,7 +14,6 @@
     background-position:center;
     background-repeat: no-repeat; background-size:cover;
     background-attachment: fixed;
-
  
 
 }
@@ -61,7 +60,7 @@
                          
 }
 .a { grid-area: head; background: black; color: white; text-align: center; padding-bottom: 80px; }
-.b { grid-area: menu; background:  black; align-items:; }
+.b { grid-area: menu; background:  black; }
 .c { grid-area: main; background:  black; padding-top: 150px; }
 .d { grid-area: foot; background: black; color: azure ; padding: 80px; font-size: 25px; }
 
